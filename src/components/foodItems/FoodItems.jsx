@@ -48,7 +48,7 @@ function FoodItems() {
     breakfastApi(cityValue);
   }
   const bfapi1 = async(bfArray1) => {
-    const image =await axios.get(`${mainURL}/populardish1?dish=${bfArray1}`)
+    const image =await axios.get(`${baseURL}/populardish1?dish=${bfArray1}`)
    // console.log(bfArray1, "bfArray1")
    // console.log(image.data, "img data")
     for(let i=0; i<image.data.dish.length; i++){
@@ -59,7 +59,7 @@ function FoodItems() {
     
   }
   const bfapi2 = async(bfArray2) => {
-    const image =await axios.get(`${mainURL}/populardish2?dish=${bfArray2}`)
+    const image =await axios.get(`${baseURL}/populardish2?dish=${bfArray2}`)
     for(let i=0; i<image.data.dish.length; i++){
       let keyvalue = image.data.dish[i]
       setBreakfastImg(breakfastImg => ({...breakfastImg, [keyvalue]: image.data.img[i]}))  
@@ -71,7 +71,7 @@ function FoodItems() {
 
   const breakfastApi = async(cityValue) => {
   //  console.log(cityValue);
-    bfResults =await axios.get(`${mainURL}/breakfastList?place=${cityValue}&placeApi=${placeApi}`)
+    bfResults =await axios.get(`${baseURL}/breakfastList?place=${cityValue}&placeApi=${placeApi}`)
    // console.log( bfResults.data, "bfresults");
     setCity(true);
     setLoading(0);
@@ -94,7 +94,7 @@ function FoodItems() {
       let bfArray1 = bfResults.data.breakfast.slice(0, div);
       let bfArray2 = bfResults.data.breakfast.slice(div, bfResults.data.breakfast.length);
       bfapi1(bfArray1);
-      let image2 = await axios.get(`${mainURL}/populardish2?dish=${bfArray2}`);
+      let image2 = await axios.get(`${baseURL}/populardish2?dish=${bfArray2}`);
     //  console.log(image2, "img data")
       for(let i=0; i<image2.data.dish.length; i++){
          let keyvalue = image2.data.dish[i]
@@ -108,7 +108,7 @@ function FoodItems() {
         let bfArray3 = bfResults.data.breakfast.slice(div+div, bfResults.data.breakfast.length);
         bfapi1(bfArray1);
         bfapi2(bfArray2);
-        let image3 = await axios.get(`${mainURL}/populardish3?dish=${bfArray3}`);
+        let image3 = await axios.get(`${baseURL}/populardish3?dish=${bfArray3}`);
         //console.log(image3, "img data")
         for(let i=0; i<image3.data.dish.length; i++){
            let keyvalue = image3.data.dish[i]
