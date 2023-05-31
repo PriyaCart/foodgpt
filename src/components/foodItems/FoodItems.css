@@ -1,0 +1,373 @@
+
+
+/* .tweetsBody{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* .tweetList {
+    display: none;
+} */
+/* .search-icon{
+    width:16px;
+    padding: 0 6px 0 5px;
+}
+.search-input{
+    border: 1px solid #ccc;
+    width: 350px;
+    background: #fff;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    border-radius: 5px;
+}
+.inputField{
+    border: none;
+    padding: 0 8px 0 5px;
+    width: 300px;
+}
+
+.inputField:focus {
+    outline: none;
+}
+.search-btn{
+    background-color:#FF2400;
+    color: #fff;
+    border: none;
+    padding: 7.8px 35px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+.tweetForm{
+    display: flex;
+    align-items: center;
+    margin-left: 30.2%;
+} */
+/* .buttons button{
+    background-color: rgb(29, 155, 240);
+    color: #fff;
+    border:none;
+} */
+
+/* NEW CSS */
+
+/* .foodBody{
+    margin-top: 10%;
+}
+.foodBody h1{
+    font-family: 'Lobster', cursive;
+    color: #FF2400;
+    background: #fff;
+    font-size: 73px;
+    padding: 5px 0 12px 0;
+    margin-bottom: 20px !important;
+}
+.error-msg{
+    color: #fff;
+    background: #ff6600;
+    width: 298px;
+    margin: 15px auto;
+}
+.loading{
+    color: #fff;
+    font-size: 20px;
+
+}
+.foodContainer{
+    width: 472px;
+    margin: 20px auto;
+    text-align: left;
+    padding: 14px;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 21px;
+} */
+
+#search-icon{
+    background: rgb(0, 198, 132);
+    padding: 28px;
+    font-size: 24px;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.search-input{
+    height: 80px;
+    width: 63%;
+    margin: 0 auto;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    box-shadow: rgb(0 0 0 / 18%) 0px 4px 8px;
+    margin-top: 90px !important;
+    background: #fff;
+}
+.search-input input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    padding: 0 15px;
+    caret-color: #555;
+    font-size: 30px;
+     
+}
+.search-input input:focus {
+    outline: none;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: #bbb;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+    color: #bbb;
+  }
+  
+  ::placeholder {
+    color: #bbb;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8vw;
+  }
+  .loaderIcon{
+    width: 74px;
+    margin: 53px auto;
+  }
+  .imgfood{
+    width:100px !important;
+  }
+  .cityNames{
+    width: 62.5%;
+    margin: 50px auto;
+  }
+  .cityNames h3{
+    text-align: left;
+    color: #aaa;
+  }
+  .cityNames p{
+    text-align: left;
+    margin-top: 15px;
+  }
+  .cityNames span{
+    cursor: pointer;
+  }
+  .cityBold{
+    color: #555;
+    font-weight: 700;
+    font-size: 23px;
+    padding-right: 15px;
+  }
+  .cityLight{
+    color: darkgray;
+    font-weight: 700;
+    font-size: 23px;
+    padding-right: 15px;
+
+  }
+
+/* 
+  dummy css */
+  #search-icon1{
+    background: rgb(0, 198, 132);
+    padding: 1.508vw;
+    font-size: 1.5vw;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: -6px;
+}
+
+  .search-input1{
+    border: 1px solid #ddd;
+    height: 4.5vw;
+    width: 68vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    box-shadow: rgb(0 0 0 / 18%) 0px 4px 8px;
+    margin-top: 4vw !important;
+    background: #fff;
+}
+.search-input1 input{
+  height: 2.3vw;
+  width: 100%;
+  border: none;
+  padding: 0px 15px;
+  caret-color: #555;
+  font-size: 1.5vw;
+     
+}
+.search-input1 input:focus {
+    outline: none;
+}
+
+.cityNames1{
+  width: 68vw;
+  margin: 50px auto 0;
+}
+.cityNames1 h4{
+  text-align: left;
+  color: #aaa;
+  font-size: 1.6vw;
+}
+.cityNames1 p{
+  text-align: left;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cityNames1 span{
+  cursor: pointer;
+}
+.cityBold1{
+  color: #555;
+  font-weight: 700;
+  font-size: 1.6vw;
+  padding-right: 15px;
+}
+.cityLight1{
+  color: darkgray;
+  font-weight: 700;
+  font-size: 1.6vw;
+  padding-right: 15px;
+
+}
+.search-input1 button{
+  border: none;
+  background: none;
+}
+.error-msg{
+  color: red;
+}
+.food-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 2vw 2.6vw 0;
+  align-items: center;
+}
+.food-logo{
+  font-size: 2.8vw;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.food-logo i{
+  color: rgb(0, 198, 132);
+}
+.ai-model{
+  font-size: 1.3vw;
+}
+.logo-food{
+  color: #F54748;
+  margin-left: 0.781vw;
+}
+.logo-gpt{
+  color: #10B981;
+}
+.food-logo img{
+  width: 1.6vw;
+}
+
+
+
+@media screen and (max-width:600px){
+.search-input1{
+  margin-top: 30px !important;
+  width: 91vw !important;
+  height: 9vw !important;
+  border: 1px solid #dddddd !important;
+}
+.search-input1 input {
+    font-size: 3.7vw !important;
+    padding: 0 14px !important;
+}
+
+::placeholder {
+  font-weight: 600 !important;
+  font-size: 4vw !important;
+}
+#search-icon1{
+  padding: 2.6vw !important;
+  font-size: 4vw !important;
+  height: 9vw !important;
+}
+.cityNames1 {
+  width: 89vw !important;
+  margin: 5vw auto 0vw!important;
+}
+.cityNames1 h4 {
+  font-size: 3.5vw !important;
+}
+.cityNames1 p {
+  margin-top: 1.5vw !important;
+}
+.cityBold1 {
+  font-size: 3.2vw !important;
+}
+.cityLight1 {
+  font-size: 3.2vw !important;
+}
+.ai-model{
+  font-size: 3vw !important;
+}
+.food-logo{
+  font-size: 4vw !important;
+}
+::placeholder {
+  font-size: 3.5vw !important;
+}
+}
+
+
+@media screen and (max-width:900px){
+.search-input1 {
+  margin-top: 5vw !important;
+  height: 6vw;
+  width: 75vw;
+}
+#search-icon1 {
+  padding: 1.77vw;
+  font-size: 2.5vw;
+}
+.cityNames1 {
+  width: 75vw;
+  margin: 4.5vw auto 0;
+}
+.cityNames1 h4 {
+  font-size: 2.3vw;
+}
+
+.cityNames1 span {
+    cursor: pointer;
+}
+.cityBold1 {
+    font-size: 2.4vw;
+}
+.cityLight1 {
+   font-size: 2.4vw;
+}
+.ai-model{
+  font-size: 2vw;
+}
+.food-logo{
+  font-size: 3vw;
+}
+::placeholder {
+  font-size: 2.3vw;
+}
+.search-input1 input {
+  height: 5vw;
+  font-size: 2.2vw;
+}
+.food-header{
+  margin: 3vw 2.6vw 0;
+}
+
+}
